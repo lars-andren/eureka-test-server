@@ -10,11 +10,11 @@ public class ItemIdUServiceMap {
 
     private Map<String, String> map = new HashMap<>();
 
-    public String get(String chargerId) {
-        return map.get(chargerId);
+    public String get(String itemId) {
+        return map.get(itemId);
     }
 
-    public String put(String chargerId, String uServiceUrl) {
-        return map.put(chargerId, uServiceUrl);
+    public String put(String itemId, String uServiceUrl) {
+        return map.put(itemId, uServiceUrl);
     }
 }
